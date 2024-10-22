@@ -19,11 +19,6 @@ public class FitnessAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FitnessAppApplication.class, args);
-		//Welcome greet = new Welcome();
-
-		Run run = new Run(1,"Harry",2,2,"Outdoor");
-
-		System.out.println(" "+run.id()+" "+ run.distance()+run.name());
 
 		//System.out.println(" Hay There , Application started Successfully ");
 

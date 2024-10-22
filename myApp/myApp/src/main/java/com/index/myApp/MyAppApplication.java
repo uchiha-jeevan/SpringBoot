@@ -12,11 +12,10 @@ public class MyAppApplication {
 
 	public static void main(String[] args) {
 
-
-		ApplicationContext context = (ApplicationContext) SpringApplication.run(MyAppApplication.class, args);
+	//SpringApplication.run(Demo1Application.class, args);
+		SpringApplication.run(MyAppApplication.class, args);
 		
-		Dev obj = context.getBean(Dev.class);
-		obj.build();
+
 	}
 
 }
